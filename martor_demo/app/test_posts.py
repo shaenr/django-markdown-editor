@@ -3,7 +3,7 @@ from app.models import Post
 
 
 class PostTestCase(TestCase):
-    def testPost(self):
+    def test_post(self):
         post = Post(title="My Title",
                     description="Blurb",
                     wiki="Post Body")
